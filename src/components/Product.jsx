@@ -18,7 +18,6 @@ const Product =({id,image,title,price,description})=>{
         </p>
       </div>
     </article>
-    
     </>
 }
 
