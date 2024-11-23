@@ -18,7 +18,6 @@ export default function ShopContextProvider({ children }) {
   const [shoppingCartState, shoppingCartDispatch] = useReducer(Reduer, { items: [] });
 
   const AddItemsToCart = (id) => {
-    console.log(id)
     shoppingCartDispatch({
       type:"ADD_ITEM",
       payload:{id}
